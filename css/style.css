@@ -1,0 +1,44 @@
+.container{
+    max-width: 980px;
+    margin: 0 auto;
+}
+.button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+.button button{
+    padding: 10px 20px;
+    background-color: rgb(56, 192, 108);
+    border:none;
+    cursor: pointer;
+}
+.content .block {
+    display: flex;
+    justify-content: space-between;
+   
+}
+.content .block .card{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    margin-bottom: 50px;
+}
+.content .block .card.winter{
+    background-color: cornflowerblue;
+}
+.content .block .card.autumn{
+    background-color: rgb(209, 127, 32);
+}
+.content .block .card.spring{
+    background-color: rgb(73, 209, 32);
+}
+
+.button button.active{
+    background-color: darkred;
+    color: #fff;
+}
